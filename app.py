@@ -11,7 +11,7 @@ st.set_page_config(page_title="Sedan & SUV Detector", layout="centered")
 # Load the model
 @st.cache_resource
 def load_model():
-    model = YOLO("vehicle_classifier_app/best.pt")
+    model = YOLO("best.pt")
     return model
 
 model = load_model()
