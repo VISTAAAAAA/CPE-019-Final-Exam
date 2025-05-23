@@ -1,6 +1,10 @@
-streamlit==1.19.0
-torch==1.13.1
-Pillow==9.4.0
-opencv-python==4.6.0.66
-ultralytics==8.0.14
-numpy==1.23.4
+streamlit
+torch
+Pillow
+opencv-python-headless
+ultralytics
+numpy
+markdown-it-py
+mdurl
+pygments
+rich
